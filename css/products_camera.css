@@ -1,0 +1,125 @@
+header{
+    height: 450px;
+}
+
+.banner .info{
+	margin-top:12%;
+	transform: translateY(-15%);
+}
+.banner .info p{
+	font-size: 15px;
+	color: #fff;
+    opacity: 0.7;
+	letter-spacing: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* .banner .info a{
+	margin-left:50%;
+	transform: translateX(-50%);
+	color: #fff;
+	background: #e91d43;
+	padding:10px 20px; 
+	font-size: 2em;
+	font-weight: 600;
+} */
+/* .banner .info a:hover{
+	background: #e91e63;
+} */
+
+.badge-notify{
+    margin-right: 50px;
+}
+.dropdown-menu{
+    background-color: #000;
+    opacity: 0.6;
+}
+.dropdown-item:hover{
+   color: black !important;
+}
+.tilte-search{
+    font-weight: 700;
+    margin-top: -60px;
+    padding-bottom: 50px;
+}
+.trending{
+    margin-top: 70px;
+}
+.search-box{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2f3640;
+    height: 50px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+.search-btn{
+    color: #000;
+    float: right;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3px;
+}
+.ti-search{
+    font-size: 30px;
+    color: #fff;
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 240px;
+}
+
+
+
+
+
+/*  */
+section{
+    width: 100%;
+    margin: 0 auto;
+}
+.section-products{
+    padding: 30px 0px;
+}
+section details p{
+    text-align: justify;
+    font-size: 12px;
+}
+.cam{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px !important;
+}
+section .navbar{
+    margin-left: -20px;
+}
+.cam .place-body{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.section-product{
+    background-image: url(../img/logo/bg_1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
